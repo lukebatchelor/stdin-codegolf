@@ -1,0 +1,17 @@
+{
+  "name": "stdin-codegolf",
+  "version": "1.0.0",
+  "description": "An example of code golfing a node script that reads from stdin - Used for a talk",
+  "main": "src/run.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": "git@github.com:lukebatchelor/stdin-codegolf.git",
+  "author": "Luke.Batchelor <batchelor.luke+git@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "mock-stdin": "^0.3.1"
+  }
+}

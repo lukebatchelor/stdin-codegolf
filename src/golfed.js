@@ -1,0 +1,1 @@
+module.exports=(s=process.stdin,o='')=>new Promise(r=>s.isTTY?r(o):s.on('data',d=>o+=d).on('end',a=>r(o)))
